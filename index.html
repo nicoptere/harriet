@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html, body
+        {
+            margin:0;
+            width:100%;
+            height:100%;
+            overflow: hidden;
+            background-color: #000000;
+        }
+        #canvas
+        {
+            position: absolute;
+            top:0;
+            z-index: 1000;
+        }
+        #intro
+        {
+            position: absolute;
+            margin:0;
+            width:100%;
+            height:100%;
+            overflow: hidden;
+            background-color: #FFFFFF;
+        }
+        #title
+        {
+            height:102px;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom:0; right: 0;
+            z-index: 1000;
+            cursor: pointer;
+
+        }
+        #left
+        {
+            height:87px;
+            top: 0;
+            bottom:0;
+            left: 10%;
+        }
+        #right
+        {
+            height:87px;
+            top: 0;
+            right: 10%;
+            bottom:0;
+        }
+        #sound
+        {
+            height:50px;
+            width:36px;
+            left: 5%;
+            bottom:5%;
+        }
+        #down
+        {
+            height:74px;
+            left: 0;
+            right: 0;
+            bottom:5%;
+        }
+        #left, #right, #sound, #down
+        {
+            margin: auto;
+            position: absolute;
+            cursor: pointer;
+            z-index: 1000;
+            opacity: 0;
+        }
+    </style>
+</head>
+    <body>
+
+    <div id="intro"></div>
+
+    <img src="img/title.png" id="title">
+    <img src="img/left_arrow.png" id="left">
+    <img src="img/right_arrow.png" id="right">
+    <img src="img/down_arrow.png" id="down">
+    <img src="img/sound.png" id="sound">
+
+
+    <!--
+    uncompressed files
+    -->
+
+    <!--
+
+    <script src="js/vendor/gsap/TweenLite.js"></script>
+    <script src="js/vendor/gsap/plugins/CSSPlugin.js"></script>
+    <script src="js/vendor/gsap/easing/EasePack.js"></script>
+
+    <script src="js/vendor/hammer/hammer.min.js"></script>
+
+    <script src="js/vendor/howler/howler.min.js"></script>
+
+    <script src="js/vendor/three/three.min.js"></script>
+    <script src="js/vendor/three/z_controls/OrbitControls.js"></script>
+
+
+    <script src="js/Sound.js"></script>
+    <script src="js/Commons.js"></script>
+    <script src="js/plane/Generator.js"></script>
+    <script src="js/plane/Plane3d.js"></script>
+    <script src="js/plane/GeometryLoader.js"></script>
+    <script src="js/plane/parts/Part.js"></script>
+    <script src="js/plane/parts/Aileron.js"></script>
+    <script src="js/plane/parts/Cable.js"></script>
+    <script src="js/plane/parts/Cockpit.js"></script>
+    <script src="js/plane/parts/Direction.js"></script>
+    <script src="js/plane/parts/Engine.js"></script>
+    <script src="js/plane/parts/Propeller.js"></script>
+    <script src="js/plane/parts/Wing.js"></script>
+    <script src="js/plane/parts/Wheel.js"></script>
+    <script src="js/plane/parts/Stick.js"></script>
+
+    <script src="js/plane/tools/Profile.js"></script>
+    <script src="js/plane/tools/Tesselate.js"></script>
+    <script src="js/plane/tools/shapes/Curves.js"></script>
+    <script src="js/plane/tools/shapes/Section.js"></script>
+    <script src="js/plane/tools/Caps.js"></script>
+    <script src="js/plane/tools/Extrude.js"></script>
+    <script src="js/plane/tools/Loft.js"></script>
+    <script src="js/plane/tools/Lathe.js"></script>
+
+    <script src="js/world/Skybox.js"></script>
+    <script src="js/world/World.js"></script>
+    <script src="js/intro/Ring.js"></script>
+
+    <script src="js/plane/Stage3d.js"></script>
+    <script src="js/plane/MathUtils.js"></script>
+
+    <script src="js/materials/ShaderLoader.js"></script>
+    <script src="js/materials/Materials.js"></script>
+
+    <script src="Main.js"></script>
+    -->
+
+
+    <script src="build/vendors.min.js"></script>
+    <script src="build/harriet.min.js"></script>
+
+    <script>
+
+
+//        (function f( t )
+//        {
+//            if( t % 500 == 0 )console.clear();
+//            var PI3 = Math.PI / 3;
+//            var r = Math.sin( .3 * t ) * 0x20 + 0xC0;
+//            var g = Math.sin( .3 * t + PI3 * 2 ) * 0x20 + 0xC0;
+//            var b = Math.sin( .3 * t + PI3 * 4 ) * 0x20 + 0xC0;
+//            var size = 16 + ( .5 + Math.cos( t * .1 ) * .5 ) * 24;
+//            console.log( "%c\t\t\t", "background:#"+ parseInt(r<<16|g<<8|b).toString(16) +"; font-size:"+size+"pt" );
+//            setTimeout( f, 30, ++t);
+//        })(0);
+
+    </script>
+</body>
+</html>

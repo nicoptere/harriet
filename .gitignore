@@ -1,0 +1,12 @@
+.idea/
+.idea
+
+build/
+build
+
+node_modules/
+node_modules
+
+harriet.zip
+gruntfile.js
+package.json
