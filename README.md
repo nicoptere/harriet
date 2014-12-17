@@ -16,3 +16,8 @@ libraries used:<br>
 <li><a href="https://github.com/goldfire/howler.js">HOWLER</a></li>
 <li><a href="https://github.com/greensock/GreenSock-JS">GSAP</a></li>
 </ul>
+<hr>
+you can:<br>
+<a href="http://barradeau.com/harriet/">try it out here</a><br>
+or watch a screencast:<br>
+<iframe src="//player.vimeo.com/video/114498077" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
