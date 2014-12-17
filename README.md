@@ -19,5 +19,4 @@ libraries used:<br>
 <hr>
 you can:<br>
 <a href="http://barradeau.com/harriet/">try it out here</a><br>
-or watch a screencast:<br>
-<iframe src="//player.vimeo.com/video/114498077" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+or watch <a href="https://vimeo.com/114498077">a screencast here</a>
